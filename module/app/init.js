@@ -5,7 +5,7 @@ import {unzipModalData} from "../command/index.js"
 import {showMessage} from "../ui/ui.js"
 
 /** @const @public */
-export const DATA_VERSION = '3.7'
+export const DATA_VERSION = '5.0'
 
 class CacheModel {
     /**
