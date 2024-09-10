@@ -1,5 +1,4 @@
 {
-    "info": "<a href='https://github.com/Dituon/grasscutter-command-helper#translate'>번역에 도움이 필요한 경우 여기를 참조하십시오.</a>",
     "title": "Grasscutter Command Helper",
     "command-list": "명령 목록",
     "command-search": "검색",
@@ -97,5 +96,5 @@
     
     "unknowError": "알 수 없는 오류, 문제를 제출하세요",
     
-    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">❤Github❤</a><a href=\"https://discord.gg/uDSQfQTrd8\">✨Discord✨</a><a href=\"https://www.buymeacoffee.com/dituon\">🙏Buy me a coffee🙏</a>"
+    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">Original Work</a><a href=\"https://github.com/mumingluan/grasscutter-command-helper\">✨GitHub✨</a>"
 }

@@ -44,10 +44,6 @@ export default defineConfig({
                 {
                     src: './lang',
                     dest: './'
-                },
-                {
-                    src: './CNAME',
-                    dest: './'
                 }
             ]
         })

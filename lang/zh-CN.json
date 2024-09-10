@@ -1,5 +1,5 @@
 {
-    "info": "<a href='https://d2n.moe/petpet-js'>❤Petpet: 表情包生成器❤</a>",
+    "info": "",
     "title": "Grasscutter 指令助手",
 
     "command-list": "指令列表",
@@ -97,7 +97,7 @@
     "shareCodeEmpty": "分享码不能为空",
     "updateFail": "上传失败",
 
-    "unknowError": "未知错误, 请提交issue反馈",
+    "unknowError": "未知错误, 请提交 issue 反馈",
 
-    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">❤Github❤</a><a href=\"https://discord.gg/uDSQfQTrd8\">✨Discord✨</a><a href=\"https://jq.qq.com/?_wv=1027&k=wPwRuhuJ\">🐧QQ群🐧</a>"
+    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">Original Work</a><a href=\"https://github.com/mumingluan/grasscutter-command-helper\">✨GitHub✨</a>"
 }

@@ -1,6 +1,4 @@
 {
-    "info": "<a href='https://github.com/Dituon/grasscutter-command-helper#translate'>Helfen Sie uns diese Seite zu übersetzen</a>",
-
     "title": "Grasscutter Command Helper",
 
     "command-list": "Command List",
@@ -100,5 +98,5 @@
 
     "unknowError": "Unknown error, please submit issue",
 
-    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">❤Github❤</a><a href=\"https://discord.gg/uDSQfQTrd8\">✨Discord✨</a>"
+    "links": "<a href=\"https://github.com/Dituon/grasscutter-command-helper\">Original Work</a><a href=\"https://github.com/mumingluan/grasscutter-command-helper\">✨GitHub✨</a>"
 }
