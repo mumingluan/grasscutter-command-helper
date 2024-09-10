@@ -1,9 +1,10 @@
-name: Deploy Vite
+name: upload Vite output
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -28,22 +29,3 @@ jobs:
         with:
           name: production-files
           path: ./dist
-
-  deploy:
-    name: Deploy to github page
-    needs: [ build ]
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - name: Download production-ready build files
-        uses: actions/download-artifact@v4.1.7
-        with:
-          name: production-files
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
