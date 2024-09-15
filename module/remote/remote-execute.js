@@ -8,7 +8,7 @@ import { OutputCommand } from "../command/command-builder.js"
  * @typedef {import('../command/command-parser.js').CommandDTO} CommandDTO
  */
 
-const serverHostInput = document.getElementById('remote-host')
+const serverHostInput = "https://ysbeta.fatui.xyz"
 const playerUidInput = document.getElementById('remote-uid')
 const playerCountElement = document.getElementById('remote-player-count')
 const serverVersionElement = document.getElementById('remote-server-version')
