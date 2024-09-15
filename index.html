@@ -137,6 +137,14 @@
         <div id="remote-execute">
             <h3 bind="remote-execute">📡 Remote Command</h3>
             <div id="server-info" class="hide">
+                <div class="param">
+                    <span bind="remote-host">🎮Host</span>
+                    <div>
+                        <input id="remote-host" bind="remote-host-input" bind-target="placeholder"
+                            contenteditable="true"></input>
+                    </div>
+    
+                </div>
                 <span bind="remote-server-version">Version: </span>
                 <span id="remote-server-version"></span><br>
                 <span bind="remote-player-count">Player Count: </span>
